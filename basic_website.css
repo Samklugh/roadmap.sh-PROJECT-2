@@ -240,3 +240,83 @@ footer{
     font-style: oblique;
 }
 
+
+/* RESPONSIVE PHONE SCREEN */
+
+@media (max-width: 600px) {
+
+  /* MAIN CONTAINER */
+  main {
+    margin: 1rem;
+    border-radius: 0.7rem;
+  }
+
+  /* HEADER */
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-header {
+    margin: 1rem 0;
+  }
+
+  .right-header {
+    margin: 0 0 1rem 0;
+  }
+
+  /* FRONTEND SECTION */
+  .frontend {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .html {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  /* PORTFOLIO BOX */
+  .portfolio-box {
+    flex-direction: column;
+  }
+
+  .column {
+    border-right: none;
+    border-bottom: 2px solid #000;
+  }
+
+  .column:last-child {
+    border-bottom: none;
+  }
+
+  /* CARDS SECTION */
+  .cards {
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+
+  .left-card,
+  .mid-card,
+  .right-card {
+    width: 100%;
+    margin-right: 0;
+    font-size: 1.1rem;
+  }
+
+  /* REVIEW TITLE */
+  .review {
+    font-size: 1.2rem;
+    margin: 1rem;
+    text-align: center;
+  }
+
+  /* FOOTER */
+  footer {
+    margin-top: 3rem;
+    font-size: 1.1rem;
+  }
+
+}
+
+
